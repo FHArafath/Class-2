@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Froms</title>
+</head>
+<body>
+    <h1>HTML FROMS</h1>
+    <fieldset>
+        <legend style="color: blue;">User Registration</legend>
+        <form>
+            <!-- Text -->
+            <label for="name">Name:</label>
+            <span style="color: red;">*</span>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+
+            <br><br>
+            
+            <!-- Email  -->
+            <label for="email">Email:</label>
+            <span style="color: red;">*</span>
+            <input type="email" id="email" placeholder="e.g test@test.com" required>
+
+            <br><br>
+            
+            <!-- Phone  -->
+            <label for="Phone">Phone:</label>
+            <span style="color: red;">*</span>
+            <input type="number" id="Phone" placeholder="8801918******" required>
+
+            <br><br>
+
+            <!-- Password  -->
+            <label for="password">Password:</label>
+            <span style="color: red;">*</span>
+            <input type="password" id="password" required>
+    
+            <br><br>
+
+            <!-- Dropdown/Select Box -->
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="Select Country">Select Country</option>
+                <option value="BAN">Bangladash</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <br><br>
+
+            <!-- Radio  -->
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender"id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            
+            <br><br>
+            
+            <!--Date of Birth-->
+            <label for="birth">Date of Birth:</label>
+            <br>
+            <input type="date" id="birth">
+
+            <br><br>
+
+            <!--upload file-->
+            <label for="upload">Upload Image:</label>
+            <br>
+            <input type="file" id="upload">
+
+            <br><br>
+
+            <!-- Textarea -->
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" rows="5" cols="30" placeholder="Hi....." required></textarea>
+
+            <br><br>
+
+            <input type="checkbox" id="terms">
+            <label for="terms">Agree to terms & conditions</label>
+            <span style="color: red;">*</span>
+            
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+
+            &nbsp;
+
+            <!-- Submit Button -->
+            <input type="reset" value="Reset">
+
+        </form>
+    </fieldset>
+</body>
+</html>
+
+
+
+
